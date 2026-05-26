@@ -1,60 +1,71 @@
-# 🏠 California Housing Price Prediction (Linear Regression Project)
+California Housing Price Prediction:
 
-## 📌 Project Overview
-This project applies machine learning techniques to predict median house prices in California using the **California Housing dataset**. The goal is to build a regression model and analyze how different features influence house prices.
+Project Overview
 
----
+This project builds and compares multiple Machine Learning models to predict median house prices in California using the scikit-learn California Housing dataset. It includes data analysis, visualization, feature engineering insights, and model evaluation.
 
-## 📊 Dataset Information
-- Source: sklearn.datasets.fetch_california_housing
-- Records: 20,640 rows
-- Features:
-  - MedInc (Median Income)
-  - HouseAge
-  - AveRooms
-  - AveBedrms
-  - Population
-  - AveOccup
-  - Latitude
-  - Longitude
-- Target:
-  - MedHouseVal (Median House Value)
+Dataset
+Source: sklearn.datasets.fetch_california_housing
+Rows: 20,640
+Features: 8 numerical features
+Target: MedHouseVal (Median House Value)
 
----
 
-## 🔍 Exploratory Data Analysis (EDA)
-- Checked missing values (none found)
-- Checked duplicates (none found)
-- Summary statistics using `.describe()`
-- Correlation heatmap
-- Feature distribution plots
-- Boxplots to detect outliers
-- Geographical visualization of house prices
+⚙️ Tech Stack
+Python 🐍
+Pandas
+NumPy
+Matplotlib
+Seaborn
+Scikit-learn
 
----
 
-## 🤖 Machine Learning Models Used
+Exploratory Data Analysis (EDA):
 
-### 1. Linear Regression
-- Baseline model
-- R² Score: ~0.57
+The dataset was explored to understand structure, relationships, and data quality.
 
-### 2. Decision Tree Regressor
-- R² Score: ~0.62
+✔ Steps Performed:
+Checked dataset shape and structure
+Verified missing values (none found)
+Checked duplicate values (none found)
+Used describe() for statistical summary
+Visualized:
+Distribution of house prices
+Correlation heatmap
+Boxplots for feature spread
+Scatter plots (Income vs Price, Location vs Price)
 
-### 3. Random Forest Regressor
-- Best performing model
-- R² Score: ~0.80+
 
-### 4. Gradient Boosting Regressor
-- R² Score: ~0.77
+Model Building & Training :
 
----
+Multiple regression models were trained and compared.
 
-## 📈 Evaluation Metrics
-- Mean Absolute Error (MAE)
-- Mean Squared Error (MSE)
-- Root Mean Squared Error (RMSE)
-- R² Score
+✔ Steps Performed:
+Split dataset into training (80%) and testing (20%)
+Trained models:
+Linear Regression
+Decision Tree Regressor
+Random Forest Regressor
+Gradient Boosting Regressor
 
----
+
+📈 Model Evaluation Metrics:
+MAE (Mean Absolute Error)
+MSE (Mean Squared Error)
+RMSE (Root Mean Squared Error)
+R² Score
+
+
+🏆 Model Performance
+Model	R² Score
+Linear Regression	~0.57
+Decision Tree	~0.62
+Gradient Boosting	~0.77
+Random Forest	~0.80 (Best Model)
+
+
+📌 Conclusion
+Random Forest performed best among all models
+Income is the most important factor affecting house prices
+Location plays a major role in pricing trends
+
