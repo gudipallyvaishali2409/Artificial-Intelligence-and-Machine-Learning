@@ -1,71 +1,208 @@
-California Housing Price Prediction:
-
-Project Overview
-
-This project builds and compares multiple Machine Learning models to predict median house prices in California using the scikit-learn California Housing dataset. It includes data analysis, visualization, feature engineering insights, and model evaluation.
-
-Dataset
-Source: sklearn.datasets.fetch_california_housing
-Rows: 20,640
-Features: 8 numerical features
-Target: MedHouseVal (Median House Value)
 
 
-⚙️ Tech Stack
-Python 🐍
-Pandas
-NumPy
-Matplotlib
-Seaborn
-Scikit-learn
+## 📌 Overview
+
+This repository contains the Machine Learning projects .
+
+This focused on applying Machine Learning techniques to real-world datasets through data preprocessing, exploratory data analysis (EDA), model development, evaluation, and performance comparison.
+
+Each project follows a complete machine learning workflow, from data analysis to predictive modeling using Scikit-learn.
+
+---
 
 
-Exploratory Data Analysis (EDA):
+# 📂 Projects Included
 
-The dataset was explored to understand structure, relationships, and data quality.
+## Task 1 – California Housing Price Prediction
 
-✔ Steps Performed:
-Checked dataset shape and structure
-Verified missing values (none found)
-Checked duplicate values (none found)
-Used describe() for statistical summary
-Visualized:
-Distribution of house prices
-Correlation heatmap
-Boxplots for feature spread
-Scatter plots (Income vs Price, Location vs Price)
+### Objective
 
+Predict the median house prices in California using multiple regression algorithms.
 
-Model Building & Training :
+### Dataset
 
-Multiple regression models were trained and compared.
+- California Housing Dataset
+- Source: sklearn.datasets.fetch_california_housing
 
-✔ Steps Performed:
-Split dataset into training (80%) and testing (20%)
-Trained models:
-Linear Regression
-Decision Tree Regressor
+### Models Used
+
+- Linear Regression
+- Decision Tree Regressor
+- Random Forest Regressor
+- Gradient Boosting Regressor
+
+### Evaluation
+
+- MAE
+- MSE
+- RMSE
+- R² Score
+
+### Best Model
+
 Random Forest Regressor
-Gradient Boosting Regressor
+
+---
+
+## Task 2 – House Price Prediction
+
+### Objective
+
+Develop a regression model to estimate house prices using property-related features.
+
+### Workflow
+
+- Data Cleaning
+- Exploratory Data Analysis
+- Feature Engineering
+- Model Training
+- Performance Evaluation
+
+---
+
+## Task 3 – House Price Prediction
+
+### Objective
+
+Analyze housing data and compare multiple regression algorithms for accurate price prediction.
+
+### Workflow
+
+- Data Preprocessing
+- Feature Selection
+- Model Building
+- Model Comparison
+- Prediction
+
+---
+
+## Task 4 – House Price Prediction
+
+### Objective
+
+Predict housing prices using machine learning techniques and evaluate model performance.
+
+### Workflow
+
+- Data Analysis
+- Feature Scaling
+- Model Training
+- Model Evaluation
+- Prediction
+
+---
+
+## Task 5 – House Price Prediction
+
+### Objective
+
+Build an optimized machine learning model for predicting house prices using housing features.
+
+### Workflow
+
+- Data Cleaning
+- Exploratory Data Analysis
+- Model Development
+- Performance Comparison
+- Final Prediction
+
+---
+
+# 📊 Machine Learning Workflow
+
+The following steps were performed in all projects:
+
+✔ Data Collection
+
+✔ Data Cleaning
+
+✔ Missing Value Analysis
+
+✔ Duplicate Value Check
+
+✔ Exploratory Data Analysis (EDA)
+
+✔ Correlation Analysis
+
+✔ Feature Selection
+
+✔ Train-Test Split
+
+✔ Model Training
+
+✔ Model Prediction
+
+✔ Model Evaluation
+
+---
+
+# 📈 Evaluation Metrics
+
+The regression models were evaluated using:
+
+- Mean Absolute Error (MAE)
+- Mean Squared Error (MSE)
+- Root Mean Squared Error (RMSE)
+- R² Score
+
+---
+
+# 🛠 Technologies Used
+
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Scikit-learn
+- Jupyter Notebook
 
 
-📈 Model Evaluation Metrics:
-MAE (Mean Absolute Error)
-MSE (Mean Squared Error)
-RMSE (Root Mean Squared Error)
-R² Score
 
 
-🏆 Model Performance
-Model	R² Score
-Linear Regression	~0.57
-Decision Tree	~0.62
-Gradient Boosting	~0.77
-Random Forest	~0.80 (Best Model)
+---
+
+# 🎯 Skills Gained
+
+- Python Programming
+- Data Preprocessing
+- Exploratory Data Analysis (EDA)
+- Data Visualization
+- Regression Modeling
+- Machine Learning
+- Model Evaluation
+- Predictive Analytics
+- Feature Engineering
+- Scikit-learn
+
+---
+
+# 📚 Learning Outcomes
+
+During this , I gained practical experience in:
+
+- Working with real-world datasets
+- Building regression models
+- Comparing machine learning algorithms
+- Evaluating model performance
+- Understanding feature importance
+- Performing data visualization
+- Applying the complete machine learning lifecycle
+
+---
+
+# 🚀 Future Improvements
+
+- Hyperparameter Tuning
+- Cross Validation
+- Feature Selection Optimization
+- Ensemble Learning
+- Model Deployment using Streamlit or Flask
+
+---
 
 
-📌 Conclusion
-Random Forest performed best among all models
-Income is the most important factor affecting house prices
-Location plays a major role in pricing trends
 
+---
+
+⭐ If you found this repository helpful, feel free to star it.
